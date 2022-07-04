@@ -1,0 +1,176 @@
+
+
+.marshBlogPic{
+    padding: 10px;
+    height: 20%;
+    width: 400px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    border: solid black 1px;
+    padding: 2px;
+    margin-left: 10px;
+
+}
+.marshText{
+    margin-right: 20px;
+    color: white;
+    padding-left: 0pt;
+  padding-right: 150pt;
+  margin-left: 10px;
+  font-size: 20px;
+
+}
+.mashBlogH1{
+margin-top: 20px;
+text-align: center;
+color: antiquewhite;
+margin-bottom: 5px;
+
+}
+.mashSub{
+    color: antiquewhite;
+    text-align: center;
+
+}
+hr{
+    margin-bottom: 30px;
+}
+.nextWeb{
+    color: antiquewhite;
+    margin-left: 30%;
+
+}
+.nextWeb:hover{
+    color: blueviolet;
+}
+
+.webBlogPic{
+    padding: 30px;
+    height: 20%;
+    width: 400px;
+    float:left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    border: solid lightpink 1px;
+    padding: 2px;
+}
+.WebText{
+    margin-right: 20px;
+    color: white;
+    padding-left: 0pt;
+    padding-right: 160pt;
+    margin-left: 10px;
+    font-size: 20px;
+
+}
+.webBlogH1{
+margin-top: 20px;
+text-align: center;
+color:palevioletred;
+margin-bottom: 5px;
+
+}
+.webSub{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.nextInt{
+    margin-left: 30%;
+    color:lightpink;
+
+}
+.nextInt:hover{
+
+    color:rgb(240, 98, 119);
+}
+.intBlogPic{
+    padding: 30px;
+    height: 20%;
+    width: 400px;
+    float:left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    border: solid  1px;
+    padding: 2px;
+}
+.intText{
+    margin-right: 20px;
+    color:white;
+    padding-left: 0pt;
+    padding-right: 160pt;
+    margin-left: 10px;
+    font-size: 20px;
+    margin-top: 30px;
+
+
+
+}
+.intBlogH1{
+margin-top: 20px;
+text-align: center;
+color:rgb(110, 149, 220);
+margin-bottom: 5px;
+
+}
+.intSub{
+    color:white;
+    text-align: center;
+
+}
+.nextRef{
+    margin-left: 30%;
+    color:rgb(118, 198, 227);
+
+}
+.nextRef:hover{
+
+    color:rgb(133, 80, 201);
+}
+
+.refBlogPic{
+    padding: 30px;
+    height: 20%;
+    width: 400px;
+    float:left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    border: solid  1px;
+    padding: 2px;
+}
+.refText{
+    margin-right: 20px;
+    color:white;
+    padding-left: 0pt;
+    padding-right: 150pt;
+    margin-left: 10px;
+    font-size: 20px;
+
+}
+.refBlogH1{
+margin-top: 20px;
+text-align: center;
+color:white;
+margin-bottom: 5px;
+
+}
+.refSub{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+.nextRefe{
+    margin-left: 30%;
+    color:rgb(46, 255, 23);
+
+}
+.nextRefe:hover{
+    color:rgb(91, 193, 79);
+
+}

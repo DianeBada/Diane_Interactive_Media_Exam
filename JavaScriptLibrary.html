@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel = "Stylesheet" href = "blogStyle.css">
+    <link rel = "Stylesheet" href = "Stylesheet.css">
+    <link rel = "normalize" href = "normalize.css">
+    <script src="https://kit.fontawesome.com/e2a7956efc.js" crossorigin="anonymous"></script>
+
+
+
+
+
+<header>
+    <script id = "replace_with_navbar" src="navbar.js"></script>
+    <script id = "replace_with_navbar" src="navbar.js"></script>
+    <nav  class = "navbar">
+        <input type = "checkbox" id = "check">
+        <label for="check" class = "burger-button"><i class="fa-solid fa-bars"></i></label>
+    
+        <img class = "logo" src="blackGirlMagic-removebg-preview.png" alt="logo">
+    
+        <ul class = "nav-link">
+    
+            <li><a class  href="index.html">HomePage</a></li>
+            <li><a  href="about.html">About</a></li>
+            <li><a href="MyBlog.html">Blog</a></li>
+            <li><a href="StyleGuide.html">StyleGuide</a></li>
+            </li>
+    
+            <li> <a class = "c-button" href="Portfolio.html">Portfolio</a></li>
+    
+    
+        </ul>
+    
+    </nav>
+
+
+</header>
+
+<body>
+    <figure class = "background-image"> 
+
+    <article>
+<h1 class = "webBlogH1" class = "p-name">JavaScriptLibraries? </h1>
+<h2 class = "webSub" class = "p-author"> By Diane Bada | 3 July, 2022 </h2>
+<hr>
+
+<section class = "WebText" class = "e-content">
+    <p class = "e-content">
+        JavaScript Library: Vidoe.js
+        <br><br>
+
+
+        For this assignment, I decided I would implement Video.js as my API. This decision was brought about by new design choices that I wanted to execute with this new assignment. For my previous assignment, I noted that my portfolio pages did not really scream out, “Hey, look at all this amazing work that I have done, contact me!” Although I did display images of some of the games that I had previously worked on and include a button that takes users to my GitHub page to download the game, it still did not feel enough. That is why I decided to use the “see live” button as a “see demo” button, which lead viewers to a new webpage where a video would show previewing the playthrough of each game. I thought that this would intrigue users more and actually help them in deciding whether they are interested in such games or not. I thought of this as a marketing strategy, give them a little taste, so they can come back for more!
+<br>
+The first thing I had to do, was use the video tag, which was completely new to me but with the help of online forums, it became straightforward. However, the built-in video-player was not appealing to me at all. It was lacking many things that I considered important for user interaction and experience. For instance, I could not use hotkeys, like the space bar to pause and I did not have the option of playback speed or having the video displayed at the corner of my screen while doing other important tasks. I thought back to YouTube and how user friendly the whole site is, in terms of the different options that are available to users, to offer more conveniences while in and out of the website.
+<br>
+This is where the JavaScript Library/API Video.js comes into handy! What is Video.js? This is an open-source HTML5 video player that uses JavaScript and CSS to offer a consistent experience across browsers. Not only does it handle the look and feel of the video player, but it also includes API and plugin systems for advanced customization. There are different ways one can customize their video-player with the help of community plugins, such as adding features for playlists (which was my original idea, but I struggled, really bad), analytics and advertising..
+<br>
+How did the inclusion of this Library help my site, you may ask? While HTML5 videos have seen a progression in standardized video streaming, there are still issues that developers will encounter by using such, ranging from cross browser issues and users who still use old browsers. Luckily for me, I didn’t have to think about ways I could make up for different browsers that did not support video streaming. In fact, Video.js player can fall back to older technologies like Flash or eliminate functionality a browser can’t support. Years prior, browser compatibility has been a challenge for web developers, and this is because each browser has slightly different implementations of standard web technologies like HTML, CSS and JavaScript, so issues often arise when trying to display one thing across several browsers. I know from experience as a user, how annoying it is to wait for a webpage’s contents to load, just for it to say, “this browser does not support. blah blah, use google chromes instead” or something across the lines. It almost makes me feel too lazy to repeat the action, copy the link and then use another browser to try and accomplish what I was trying to do in the first place. However, with the use Video.js, I made sure users would not have to go through that tragic event. Video.js eliminates inconsistencies between browsers so that there’s a seamless viewing experience across a multitude of devices and browsers. 
+<br><br>
+There were other alternatives that I could have used instead of Video.js, however, some of them needed you to sign up for a monthly subscription, and some others were difficult in implementing because their API document wasn’t as straightforward as Video.js. What I really liked about Video.js’ guide and API document, was that it included many examples on how you could function or plugins. It was truly a beginner friendly Library, as well as one the most rated JavaScript libraries for video players.
+
+<br><br>
+Overall Enhancement of User Experience
+<br>
+As more and more users become familiar with keyboard shortcuts, the lack of them often will lead to a frustrating video experience. To give an example, when I watch YouTube Videos, reaching out for my mouse or track pad to go press the play or pause button, is time consuming. The space bar just needs one click and all is said and done.
+I implemented, with the use of the plugins available from Video.js, essential keyboard shortcuts to satisfy power users.
+ <br>
+ Spacebar: start/pause video
+Right arrow key: fast forward video
+Left arrow key: rewind video 
+M: mute or unmute video sounds 
+F: enter or exit full-screen mode
+Esc: to exit full screen mode
+
+<br><br>
+Defining my Audience
+<br>
+In order to design and customize my video-player, I had to have my audience in mind and think about the different functions that they would need in order to fulfil what I want them to do. In this case, the reason I had a video-player in the first place was to showcase my work and show the users the playthrough of my work. There isn’t really much that they need to do, except for the basic functions such as, pause, play, full screen, rewind, fast-forward, and increase the speed. Hence why I included shortcuts for these functions, to provide convenience at the touch of the keyboard.
+I think I executed this relatively well. However, I had more plans on how to improve the user experience by including a playlist at the side of the main video-player. This was a difficult task for me, because videos would stop playing randomly or not plat all. I thought this would provide convenience for users, as they could decide on which video, they wanted to play next, from the videos available on the playlist or would leave it to auto play and not have to move a hand. 
+I failed at this attempt, especially due to time constraints, however, I am more than happy to go back and figure out what the issue was in my own free time.
+
+
+<br><br>
+
+<a href="Reflection-Second.html" class = "nextRef">Next Read: Overall Experience.</a>
+
+
+
+    </p>
+</section>
+</article>
+
+
+    
+
+
+       
+    
+</body>
+
+<footer class="footer">
+    <div class = "col-1" >
+        <h3>USEFUL LINKS</h3>
+        <a href="#">About</a>
+        <a href="#">Blog</a>
+        <a href="#">Stylesheet</a>
+        <a href="#">Portfolio</a>
+    
+    </div>
+    <div class = "col-2" >
+        <h3>NEWSLETTER</h3>
+        <form>
+            <input type="email" placeholder="Your Email Address" required>
+            <br>
+            <button type = "submit">SUBSCRIBE NOW</button>
+        </form>
+    </div>
+    <div class = "col-3" >
+        <h3>CONTACT</h3>
+        <p>2138334@students.wits.ac.za <br> University of Witswatersrand, Braamfontein, 2000</p>
+    </div>
+    
+</figure>
+    </footer>
+
+    <script src = "app.js"></script>
+
+</div>
+</html>

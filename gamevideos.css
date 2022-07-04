@@ -1,0 +1,143 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+   font-family: 'Poppins', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+   text-transform: capitalize;
+}
+
+body{
+   background-color: coral;
+   padding:20px;
+} */
+
+.container{
+   max-width: 1000px;
+   max-height: 500px;
+   display:block;
+   gap:20px;
+   border-radius: 5px;
+   position:relative;
+   padding-top: 100px;
+left: 160px;}
+.container video{
+    padding: 30px 30px;
+
+}
+
+
+.game-title{
+    color: bisque;
+    padding-right: 250px;
+    padding-bottom: 40px;
+    white-space: nowrap;
+}
+.next-game a{
+    color: bisque;
+    font-size: 40px;
+    padding-left: 350px;
+    text-decoration: underline;
+}
+.next-game {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+
+
+   @media (max-width:1400px){
+
+    .container{
+        margin:0;
+        margin-bottom: 400px;
+        padding-left: 25px;
+     }
+
+     .game-title{
+        text-align: center;
+        font-size: 35px;
+        padding-left: 250px;
+
+
+       
+ }
+ .next-game a{
+    margin-bottom: 30px;
+
+    font-size: 25px;
+    white-space: nowrap;
+
+
+
+
+   }
+}
+
+
+
+
+@media (max-width:900px){
+
+    .container{
+        margin:0;
+        right: 500px;
+     }
+
+     .game-title{
+        font-size: 20px;
+        color: aqua;
+        padding-right: 190px;
+        white-space: nowrap;
+
+
+  
+       
+ }
+ .next-game a{
+    margin-bottom: 400px;
+
+    padding-left: 240px;
+    font-size: 15
+
+ }
+
+   
+   .background-image
+   {
+width: 200%;}
+
+   
+ 
+@media (max-width:550px){
+
+   .game-title{
+      font-size: 20px;
+      text-align: center;
+      white-space: nowrap;
+      padding-left: 55px;
+   }
+   
+
+   .next-game{
+       font-size: 10px;
+       
+
+   }
+   .next-game a{
+
+    padding-left: 150px;
+    margin-bottom: 0px;
+
+   }
+
+   .container{
+    width: 400px;
+    height: 600px;
+    margin-left: 10px;
+ }
+}
+}
